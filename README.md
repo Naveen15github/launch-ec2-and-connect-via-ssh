@@ -12,7 +12,7 @@ I also created and configured a Security Group to allow SSH (port 22) traffic on
 
 After launching the instance and confirming its running state, I connected to it via SSH using Command Prompt on my local Windows system with the following command:
 
-ssh -i "ec2keypair.pem" administrator@<Public-IP-Address>
+ssh -i "ec2keypair.pem" administrator@Public-IP-Address
 
 
 The SSH connection was successful, and I verified it using commands like:
